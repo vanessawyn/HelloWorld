@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     func say(_ text: String){
-        print(text)
+        label.text = text
     }
 
 
